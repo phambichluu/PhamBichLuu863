@@ -15,5 +15,6 @@ namespace PhamBichLuu863.Data
         }
 
         public DbSet<PersonPBL863> PersonPBL863 { get; set; }
+        public DbSet<PBL863> PBL863 { get; set; }
     }
 }

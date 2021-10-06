@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PhamBichLuu863.Data;
 
 namespace PhamBichLuu863.Migrations
 {
     [DbContext(typeof(PBL863Context))]
-    partial class PBL863ContextModelSnapshot : ModelSnapshot
+    [Migration("20211006005701_Create_Table_PBL863")]
+    partial class Create_Table_PBL863
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

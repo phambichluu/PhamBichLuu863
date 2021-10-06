@@ -149,3 +149,8 @@ C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views
 C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PersonPBL863\Details.cshtml.g.cs
 C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PersonPBL863\Edit.cshtml.g.cs
 C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PersonPBL863\Index.cshtml.g.cs
+C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PBL863\Create.cshtml.g.cs
+C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PBL863\Delete.cshtml.g.cs
+C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PBL863\Details.cshtml.g.cs
+C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PBL863\Edit.cshtml.g.cs
+C:\Users\DELL\Desktop\PhamBichLuu863\PhamBichLuu863\obj\Debug\net5.0\Razor\Views\PBL863\Index.cshtml.g.cs
