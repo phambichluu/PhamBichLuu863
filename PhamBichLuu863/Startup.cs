@@ -1,13 +1,16 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PhamBichLuu863.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace PhamBichLuu863
 {
@@ -24,6 +27,8 @@ namespace PhamBichLuu863
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<PBL863Context>(options =>
+    options.UseSqlServer(Configuration.GetConnectionString("PBL863Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
